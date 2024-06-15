@@ -1,3 +1,5 @@
+import Providers from "./providers";
+import ThemeRegistry from "./theme-registry";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -12,7 +14,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <ThemeRegistry>
+          <Providers>{children}</Providers>
+        </ThemeRegistry>
+      </body>
     </html>
   );
 }

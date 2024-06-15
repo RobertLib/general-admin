@@ -1,0 +1,74 @@
+{
+  "actions": {
+    "addNew": "Add New",
+    "delete": "Delete",
+    "detail": "Detail",
+    "edit": "Edit"
+  },
+  "emails": {
+    "resetPassword": {
+      "subject": "Reset your password",
+      "text": "Hello,\n\nTo reset your password, simply click the link below:\n\n{{url}}\n\nIf you didn't request a password reset, please ignore this email.\n\nThanks."
+    }
+  },
+  "errors": {
+    "emailAlreadyExists": "Account with this email already exists.",
+    "emailNotFound": "Account with this email not found.",
+    "invalidCredentials": "Wrong email or password.",
+    "invalidToken": "Invalid token.",
+    "passwordsDontMatch": "Passwords don't match.",
+    "permissionDenied": "You don't have permission to perform this action.",
+    "somethingWentWrong": "Something went wrong. Please try again later."
+  },
+  "forgotPassword": {
+    "backTo": "Back to",
+    "resetInstructionsSent": "Instructions to reset your password have been sent to your email.",
+    "subtitle": "Enter your email address to reset your password.",
+    "title": "Reset Password"
+  },
+  "forgotPasswordForm": {
+    "submit": "Send Reset Instructions"
+  },
+  "form": {
+    "createSuccess": "Record created successfully.",
+    "deleteConfirm": "Are you sure you want to delete this record?",
+    "deleteSuccess": "Record deleted successfully.",
+    "submit": "Submit",
+    "updateSuccess": "Record updated successfully."
+  },
+  "login": {
+    "noAccount": "Don't have an account?",
+    "register": "Register",
+    "title": "Login"
+  },
+  "loginForm": {
+    "forgotPassword": "Forgot password?",
+    "submit": "Log in"
+  },
+  "navbar": {
+    "logout": "Log out",
+    "openSettings": "Open settings"
+  },
+  "register": {
+    "haveAccount": "Already have an account?",
+    "title": "Registration"
+  },
+  "registerForm": {
+    "submit": "Register"
+  },
+  "resetPassword": {
+    "subtitle": "Please enter your new password.",
+    "title": "Reset Password"
+  },
+  "user": {
+    "confirmPassword": "Confirm password",
+    "email": "Email",
+    "name": "Name",
+    "password": "Password",
+    "role": "Role",
+    "title": "User"
+  },
+  "users": {
+    "title": "Users"
+  }
+}
